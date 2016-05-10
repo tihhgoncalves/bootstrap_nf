@@ -1,0 +1,20 @@
+{
+  "name": "bootstrap_nf",
+  "homepage": "https://github.com/tihhgoncalves/bootstrap_nf",
+  "authors": [
+    "Tihh Gonçalves <tihh.gon@gmail.com>"
+  ],
+  "description": "Bootstrap customizado para a Netforce",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
