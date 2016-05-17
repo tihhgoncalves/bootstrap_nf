@@ -22,6 +22,26 @@
   font-weight: 500;
   text-transform: uppercase;
 }
+.btn-default {
+  background: none;
+  border-color: #656565;
+  color: #656565;
+}
+.btn-default:hover,
+.btn-default:focus {
+  background: #656565;
+  border-color: #FFF;
+  color: #FFF;
+}
+.btn-default.btn-bg {
+  background-color: #656565;
+  border-color: #656565;
+  color: #FFF;
+}
+.btn-default.btn-bg:hover,
+.btn-default.btn-bg:focus {
+  background-color: #5A5A5A;
+}
 .btn-primary {
   background: none;
   border-color: #208DCA;
@@ -33,16 +53,14 @@
   border-color: #FFF;
   color: #FFF;
 }
-.btn-default {
-  background: none;
-  border-color: #656565;
-  color: #656565;
-}
-.btn-default:hover,
-.btn-default:focus {
-  background: #656565;
-  border-color: #FFF;
+.btn-primary.btn-bg {
+  background-color: #208DCA;
+  border-color: #208DCA;
   color: #FFF;
+}
+.btn-primary.btn-bg:hover,
+.btn-primary.btn-bg:focus {
+  background-color: #1D82B8;
 }
 .btn-success {
   background: none;
@@ -55,6 +73,15 @@
   border-color: #FFF;
   color: #FFF;
 }
+.btn-success.btn-bg {
+  background-color: #52B560;
+  border-color: #52B560;
+  color: #FFF;
+}
+.btn-success.btn-bg:hover,
+.btn-success.btn-bg:focus {
+  background-color: #48AA57;
+}
 .btn-info {
   background: none;
   border-color: #41C1FC;
@@ -65,6 +92,15 @@
   background: #41C1FC;
   border-color: #FFF;
   color: #FFF;
+}
+.btn-info.btn-bg {
+  background-color: #41C1FC;
+  border-color: #41C1FC;
+  color: #FFF;
+}
+.btn-info.btn-bg:hover,
+.btn-info-.btn-bg:focus {
+  background-color: #2CB8FC;
 }
 .btn-warning {
   background: none;
@@ -77,6 +113,15 @@
   border-color: #FFF;
   color: #FFF;
 }
+.btn-warning.btn-bg {
+  background-color: #F9B15D;
+  border-color: #F9B15D;
+  color: #FFF;
+}
+.btn-warning.btn-bg:hover,
+.btn-warning.btn-bg:focus {
+  background-color: #F9A948;
+}
 .btn-danger {
   background: none;
   border-color: #F47473;
@@ -87,6 +132,15 @@
   background: #F47473;
   border-color: #FFF;
   color: #FFF;
+}
+.btn-danger.btn-bg {
+  background-color: #F47473;
+  border-color: #F47473;
+  color: #FFF;
+}
+.btn-danger.btn-bg:hover,
+.btn-danger.btn-bg:focus {
+  background-color: #F26060;
 }
 .alert {
   background: none;

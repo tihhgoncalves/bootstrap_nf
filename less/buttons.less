@@ -9,6 +9,28 @@
   text-transform: uppercase;
 }
 
+.btn-default{
+  background: none;
+  border-color: @color_default;
+  color: @color_default;
+}
+.btn-default:hover,
+.btn-default:focus{
+  background: @color_default;
+  border-color: #FFF;
+  color: #FFF;
+}
+.btn-default.btn-bg{
+  background-color: @color_default;
+  border-color: @color_default;
+  color: #FFF;
+}
+.btn-default.btn-bg:hover,
+.btn-default.btn-bg:focus,{
+  background-color: @color_default_sup;
+}
+
+
 .btn-primary{
   background: none;
   border-color: @color_primary;
@@ -20,17 +42,14 @@
   border-color: #FFF;
   color: #FFF;
 }
-
-.btn-default{
-  background: none;
-  border-color: @color_default;
-  color: @color_default;
-}
-.btn-default:hover,
-.btn-default:focus{
-  background: @color_default;
-  border-color: #FFF;
+.btn-primary.btn-bg{
+  background-color: @color_primary;
+  border-color: @color_primary;
   color: #FFF;
+}
+.btn-primary.btn-bg:hover,
+.btn-primary.btn-bg:focus,{
+  background-color: @color_primary_sup;
 }
 
 .btn-success{
@@ -44,6 +63,15 @@
   border-color: #FFF;
   color: #FFF;
 }
+.btn-success.btn-bg{
+  background-color: @color_success;
+  border-color: @color_success;
+  color: #FFF;
+}
+.btn-success.btn-bg:hover,
+.btn-success.btn-bg:focus,{
+  background-color: @color_success_sup;
+}
 
 .btn-info{
   background: none;
@@ -55,6 +83,15 @@
   background: @color_info;
   border-color: #FFF;
   color: #FFF;
+}
+.btn-info.btn-bg{
+  background-color: @color_info;
+  border-color: @color_info;
+  color: #FFF;
+}
+.btn-info.btn-bg:hover,
+.btn-info-.btn-bg:focus,{
+  background-color: @color_info_sup;
 }
 
 .btn-warning{
@@ -68,6 +105,15 @@
   border-color: #FFF;
   color: #FFF;
 }
+.btn-warning.btn-bg{
+  background-color: @color_warning;
+  border-color: @color_warning;
+  color: #FFF;
+}
+.btn-warning.btn-bg:hover,
+.btn-warning.btn-bg:focus,{
+  background-color: @color_warning_sup;
+}
 
 .btn-danger{
   background: none;
@@ -79,4 +125,13 @@
   background: @color_danger;
   border-color: #FFF;
   color: #FFF;
+}
+.btn-danger.btn-bg{
+  background-color: @color_danger;
+  border-color: @color_danger;
+  color: #FFF;
+}
+.btn-danger.btn-bg:hover,
+.btn-danger.btn-bg:focus,{
+  background-color: @color_danger_sup;
 }
