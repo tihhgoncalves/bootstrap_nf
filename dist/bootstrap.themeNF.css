@@ -145,6 +145,20 @@
 .btn-danger.btn-bg:focus {
   background-color: #F26060;
 }
+/* Ícones / Font Awesome */
+.btn i.fa {
+  font-size: 20px;
+}
+.btn-xs i.fa {
+  font-size: 14px;
+  line-height: 18px;
+}
+.btn-sm i.fa {
+  font-size: 18px;
+}
+.btn-lg i.fa {
+  font-size: 24px;
+}
 .alert {
   background: none;
   border: 0 none !important;
