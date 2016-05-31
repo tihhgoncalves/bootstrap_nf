@@ -334,3 +334,6 @@ body {
   border: 0;
   box-shadow: none;
 }
+.dropdown-menu {
+  box-shadow: none;
+}
