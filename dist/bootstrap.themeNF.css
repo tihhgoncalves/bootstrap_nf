@@ -337,3 +337,7 @@ body {
 .dropdown-menu {
   box-shadow: none;
 }
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+  background-image: none!important;
+}
